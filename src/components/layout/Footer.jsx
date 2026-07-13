@@ -109,13 +109,13 @@ return (
 <Mail/>
 
 <span>
-البريد الإلكتروني
+moetshakawi-uae@gmail.com
 </span>
 
 </div>
 
 
-
+{/* 
 <div>
 
 <Phone/>
@@ -124,7 +124,7 @@ return (
 رقم التواصل
 </span>
 
-</div>
+</div> */}
 
 
 

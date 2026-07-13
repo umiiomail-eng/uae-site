@@ -25,8 +25,8 @@ function Contact() {
                         <div>
                             <Mail />
 
-                            <a href="mailto:support@moetshakwa-uae.com">
-                                support@moetshakwa-uae.com
+                            <a href="mailto:moetshakawi-uae@gmail.com">
+                               moetshakawi-uae@gmail.com
                             </a>
                         </div>
 
