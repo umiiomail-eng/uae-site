@@ -6,12 +6,17 @@ import { Link } from "react-router-dom";
 
 import "../styles/page.css";
 import { useEffect } from "react";
-import { trackGoogleAdsConversion } from "../services/googleAds";
+import { pushEvent } from "../services/googleAds";
 
 function ThankYou(){
-
 useEffect(() => {
-  trackGoogleAdsConversion("thank-you");
+
+  window.scrollTo(0, 0);
+
+  pushEvent("complaint_form_submitted", {
+    page: "/thank-you",
+  });
+
 }, []);
 
 return (
