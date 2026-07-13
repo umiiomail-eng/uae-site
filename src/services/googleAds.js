@@ -1,6 +1,5 @@
-// استبدل هذه القيم لاحقًا
-const CONVERSION_ID = "AW-18134556823";
-const CONVERSION_LABEL = "XXXXXXXXXXXXXXXXXXXX";
+const CONVERSION_ID = import.meta.env.VITE_GOOGLE_ADS_ID;
+const CONVERSION_LABEL = import.meta.env.VITE_GOOGLE_ADS_LABEL;
 
 export function trackGoogleAdsConversion() {
 

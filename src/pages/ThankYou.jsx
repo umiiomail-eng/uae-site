@@ -5,9 +5,14 @@ import { CheckCircle, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import "../styles/page.css";
-
+import { useEffect } from "react";
+import { trackGoogleAdsConversion } from "../services/googleAds";
 
 function ThankYou(){
+
+useEffect(() => {
+  trackGoogleAdsConversion("thank-you");
+}, []);
 
 return (
 
